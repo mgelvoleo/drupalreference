@@ -1,0 +1,17 @@
+name: My Custom Theme
+type: theme
+description: This is custom for 2021
+core: 8.x
+screenshot: mytheme.png
+
+
+regions:
+  header: Header
+  content: Content
+  sidebar_first: Sidebar first
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom  
+
+libraries:
+  - mytheme/global-css
