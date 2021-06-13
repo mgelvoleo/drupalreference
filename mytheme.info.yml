@@ -1,17 +1,26 @@
 name: My Custom Theme
 type: theme
+base theme: base_bootstrap_4
 description: This is custom for 2021
+package: Bootstrap
 core: 8.x
 screenshot: mytheme.png
 
 
 regions:
+  navigation: Navigation
   header: Header
   content: Content
-  sidebar_first: Sidebar first
-  footer: Footer
-  page_top: Page top
-  page_bottom: Page bottom  
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'  
+  copyright: Copyright
+  social_media: 'Social Media'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'  
 
 libraries:
-  - mytheme/global-css
+  - base_bootstrap_4/bootstrap
+  - mytheme/mytheme-css
+  - mytheme/opensans

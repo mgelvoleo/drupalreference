@@ -1,7 +1,18 @@
-global-css:
-  version: VERSION
+mytheme-css:
+  version: 1.0
   css:
-    theme:
-      css/elements.css: {}
-      css/layout.css: {}
-      css/print.css: { media: print }
+    base:
+      css/base/styles.css: {}
+  js:
+    js/scripts.js: {}
+
+opensans:
+  license:
+    name: Open Sans
+    url: http://scripts.sil.org/scripts/page.php?site_id=nrsi&id=OFL 
+  css:
+    theme: 
+      //fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800: {  type: external }
+      //fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic: {  type: external }
+      css/base/styles.css: {}
+      
